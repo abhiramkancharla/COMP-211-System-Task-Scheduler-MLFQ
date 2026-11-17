@@ -10,4 +10,8 @@ One thing I found interesting is, in 2007, there was a program that hijacked pro
 
 This caused a lot of issues for people using the computer because your CPU report reported 0% usage while your CPU was actually being used. It didn't allow other processes to run either because it works on a queue basis. 
 
+## Code
+
+mlfq.py accesses one program that you specify from the terminal, and it demotes it on the macOS scheduler depending on how much CPU usage it's using. It doesn't necessarily do much because, on your computer, there are multiple cores, so it's probably running on its own core. Assuming there was only a single core, this Python script would be intended to reduce the priority of the program that you're running on your terminal. 
+
 **Slides:** https://docs.google.com/presentation/d/1is4Kc3UNWYTKfPib5qjYPnkJPTfZ1GKGkDFkDfpMzhw/edit?usp=sharing
