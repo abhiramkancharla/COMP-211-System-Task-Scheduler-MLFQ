@@ -9,3 +9,5 @@ Another addition to this is I/O tasks, which are input-output tasks. For example
 One thing I found interesting is, in 2007, there was a program that hijacked processes and computers, not letting them run by putting itself at the top of the queue. This was possible because the program ran in the task scheduler. Right before it hit the threshold, which was about 10 ms, at 9 ms, the program cut itself and then went to sleep. It just never hit the threshold, and right after it went to sleep, it came back up again and started running.
 
 This caused a lot of issues for people using the computer because your CPU report reported 0% usage while your CPU was actually being used. It didn't allow other processes to run either because it works on a queue basis. 
+
+**Slides:** https://docs.google.com/presentation/d/1is4Kc3UNWYTKfPib5qjYPnkJPTfZ1GKGkDFkDfpMzhw/edit?usp=sharing
